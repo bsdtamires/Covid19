@@ -20,10 +20,13 @@ body{
     text-align: left;
     display: flexbox;
     width: 400px;
+    margin-top: 10px;
     margin: 50px;
     padding: 50px;
     border:1px solid #ccc;
+    border-spacing: 10px;
 }
+
 .formulario p{
     width: 100%;
     font-size: 1.5em;
@@ -59,7 +62,7 @@ textarea{
     height: 90px;
     resize: none;
 }
-input[type=submit]{
+button{
     display: block;
     background-color: #ccc;
     height: 35px;
