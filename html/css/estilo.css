@@ -11,6 +11,10 @@ body{
     font-weight: 300;
   }
 
+  h2{
+      padding: 10px;
+  }
+
   .principal{
       display: flex;
       flex-direction: row;
@@ -26,27 +30,41 @@ body{
       flex-direction: column;
     }
   }
-  .home{
+
+  #home{
       padding: 10px;
       flex: 50%;    
   }
+  
+  .principal a{
+    text-decoration: unset;
+    color: white;
+    margin: 0 50px;
+  }
+
+  #contato{
+    padding: 10px;
+    flex: 50%;
+    margin: 0 50px;
+  }
+
+  #saibaMais{
+    padding: 10px;
+    flex: 50%;
+    margin: 0 50px;
+  }
+
   .sobre{
     padding: 10px;
     flex: 50%;
     text-decoration: unset;
+    margin: 0 50px;
   }
 
-  .principal a{
-    text-decoration: unset;
-    color: white;
-  }
-  .contato{
+  #sobreTitulo{
     padding: 10px;
     flex: 50%;
-  }
-  .saibaMais{
-    padding: 10px;
-    flex: 50%;
+    margin: 0 50px;
   }
 
   img{
