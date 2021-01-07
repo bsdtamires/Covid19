@@ -20,6 +20,7 @@ body{
       text-decoration: unset;
       background-color: #453c57;
   }
+  
   @media (max-width: 800px) {
     .principal {
       flex-direction: column;
