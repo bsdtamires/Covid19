@@ -17,6 +17,7 @@ body{
       font-size: 30px;
       margin: 0 50px;
       text-align: center;
+      text-decoration: unset;
       background-color: #453c57;
   }
   @media (max-width: 800px) {
@@ -31,6 +32,12 @@ body{
   .sobre{
     padding: 10px;
     flex: 50%;
+    text-decoration: unset;
+  }
+
+  .principal a{
+    text-decoration: unset;
+    color: white;
   }
   .contato{
     padding: 10px;
