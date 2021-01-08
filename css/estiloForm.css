@@ -14,7 +14,7 @@ body{
 
 .formulario{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 47%;
     transform: translateY(-50%) translateX(-50%);
     text-align: left;

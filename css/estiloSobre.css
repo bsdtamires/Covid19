@@ -7,23 +7,24 @@ body{
   }
 
   section{
-    width:60%; 
+    width:50%; 
     margin: 0 auto;
     border:#605b6b 1px;   
     padding: 10px; 
+    text-align: center;
+    text-decoration: unset;
   }
   
-  img{
-    width: 30%;
-    align-content: left;
-    padding: 10px;
-    margin: 10px;
-  }
-
   a{
-    width: 30%;
+    width: 10%;
     align-content: center;
-    padding: 10px;
+    padding: 5px;
+    margin: 5px;
+   }
+
+  .img{
+    width: 10%;
+    align-content: center;
     margin: 10px;
   }
 
